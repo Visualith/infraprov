@@ -21,6 +21,9 @@ end result and then replicate that in their environment.
 2. Copy & Paste: Users can copy and paste the patterns and snippets into their own environment, using
 the code as the starting point for their implementation. Users can then adapt the initial pattern
 to customize it to their specific needs.
+3. It requires values.yaml file to be present in eks-blueprint/modules/eks_cluster.This file contains the
+deployment info about ArgoCD.
+you can find the template for that here - https://github.com/argoproj/argo-helm/blob/main/charts/argo-cd/values.yaml
 
 
 
